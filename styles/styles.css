@@ -1,0 +1,46 @@
+#bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: url("../assets/dahee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#name {
+  margin: 20px;
+}
+
+#headerSpan {
+  font-size: 24px;
+  font-family: "Cinzel", sans-serif;
+}
+
+.nav {
+  font-family: "Cinzel", sans-serif;
+  float: right;
+  display: inline-block;
+  padding-inline-start: 0 !important;
+}
+
+.navLi {
+  list-style: none;
+  display: inline;
+}
+
+.navLi a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  font-family: "Cinzel", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

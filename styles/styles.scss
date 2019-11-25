@@ -1,0 +1,53 @@
+$cute-green: #c6e096;
+$cute-red: #e17e66;
+$cute-white: #fcfbfb;
+
+
+#bg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // background: url(http://alexekim.github.io/images/plane.jpg) no-repeat center center fixed;
+  background-image: url("../assets/dahee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.header{
+  // text-align: center;
+}
+#name{
+  margin: 20px;
+}
+#headerSpan{
+  font-size: 24px;
+  font-family: "Cinzel", sans-serif;
+}
+
+.nav{
+  font-family: "Cinzel", sans-serif;
+  float: right;
+  display: inline-block;
+  padding-inline-start: 0 !important;
+}
+
+.navLi{
+  list-style: none;
+  display: inline;
+}
+.navLi a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+p{
+  font-family: "Cinzel", sans-serif;
+}
