@@ -2,6 +2,10 @@ body {
   background: #fcfbfb;
 }
 
+.kr {
+  font-family: "Nanum Gothic Coding", monospace;
+}
+
 .green {
   color: #c6e096;
 }
@@ -42,6 +46,7 @@ body {
 
 .navLinkDivs {
   display: inline;
+  transition: border-bottom 0.5s ease;
   border-bottom: 1px solid #c6e096;
   width: 50px;
   margin: 20px;
@@ -57,8 +62,33 @@ body {
   font-weight: 100;
 }
 
+#highlightImageDiv, #highlightVideoDiv {
+  text-align: center;
+  margin-left: 0 auto;
+}
+
+#highlightImage {
+  width: 100%;
+  max-width: 500px;
+}
+
+#highlightVideoDiv {
+  text-align: center;
+}
+
+#highlightVideoDiv video {
+  width: 100%;
+  max-width: 500px;
+}
+
 p {
   font-family: "Yantramanav", sans-serif;
+}
+
+@media (max-width: 501px) {
+  #highlightImage, #higlightVideo {
+    margin: 20px auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

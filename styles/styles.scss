@@ -1,9 +1,14 @@
 $cute-green: #c6e096;
 $cute-red: #e17e66;
 $cute-white: #fcfbfb;
+$kr: 'Nanum Gothic Coding', monospace;
 
 body{
   background: $cute-white;
+}
+
+.kr{
+  font-family: $kr;
 }
 
 .green{
@@ -46,6 +51,7 @@ body{
 }
 .navLinkDivs{
   display: inline;
+  transition: border-bottom 0.5s ease;
   border-bottom: 1px solid $cute-green;
   width: 50px;
   margin: 20px;
@@ -66,9 +72,33 @@ body{
   // text-decoration-color: $cute-red;
 }
 
+#highlightImageDiv, #highlightVideoDiv{
+  text-align: center;
+  margin-left: 0 auto;
+}
+#highlightImage{
+  width: 100%;
+  max-width: 500px;
+}
+
+
+#highlightVideoDiv{
+  text-align: center;
+}
+#highlightVideoDiv video{
+  width: 100%;
+  max-width: 500px;
+}
+
 
 
 p{
   font-family: 'Yantramanav', sans-serif;
 
+}
+
+@media(max-width:501px){
+  #highlightImage, #higlightVideo{
+    margin: 20px auto;
+  }
 }
