@@ -1,32 +1,38 @@
-#bg {
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-image: url("../assets/dahee.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+body {
+  background: #fcfbfb;
+}
+
+.green {
+  color: #c6e096;
+}
+
+.red {
+  color: #e17e66;
 }
 
 #name {
   margin: 20px;
+  text-align: center;
+}
+
+.nameSpan {
+  padding: 10px;
+  height: 20px;
 }
 
 #headerSpan {
   font-size: 24px;
-  font-family: "Cinzel", sans-serif;
+  font-family: "Yantramanav", sans-serif;
+  font-weight: 100;
+}
+
+.navDiv {
+  text-align: center;
+  padding-inline-start: 0 !important;
 }
 
 .nav {
-  font-family: "Cinzel", sans-serif;
-  float: right;
-  display: inline-block;
-  padding-inline-start: 0 !important;
+  font-family: "Yantramanav", sans-serif;
 }
 
 .navLi {
@@ -34,13 +40,25 @@
   display: inline;
 }
 
+.navLinkDivs {
+  display: inline;
+  border-bottom: 1px solid #c6e096;
+  width: 50px;
+  margin: 20px;
+}
+
+.navLinkDivs:hover {
+  border-bottom: 1px solid #e17e66;
+}
+
 .navLi a {
   text-decoration: none;
   color: black;
+  font-weight: 100;
 }
 
 p {
-  font-family: "Cinzel", sans-serif;
+  font-family: "Yantramanav", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */

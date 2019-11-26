@@ -3,36 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>鄭</title>
-    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:100,300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/materialize.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
 
   </head>
   <body>
-    <div id="bg">
+    <!-- <div id="bg"> -->
       <!-- background, see css -->
+    <!-- </div> -->
+
+    <div id="name">
+      <h1>
+        <div style="display: inline"><span id="jung" class="nameSpan">정</span></div>
+        <div style="display: inline"><span id="da" class="nameSpan">다</span></div>
+        <div style="display: inline"><span id="hee" class="nameSpan">희</span></div>
+      </h1>
+      <span id="headerSpan"><span class="green">D</span> A H E E _ <span class="red">J</span> U N G</span>
     </div>
-    <div class="header">
-      <div class="row">
-        <div class="col s8">
-          <div id="name">
-            <h1><!--ㅈㄷㅎ-->정다희 <span id="headerSpan">D A H E E _ J U N G</span> </h1>
+    <div class="nav">
+      <ul class="navDiv">
+        <li class="navLi">
+          <div class="navLinkDivs">
+            <a href="#">about</a> &nbsp;
           </div>
-        </div>
-        <div class="col s4">
-          <ul class="nav">
-            <li class="navLi">
-              <a href="#">about</a> &nbsp;
-            </li>
-            <li class="navLi">
-              <a href="#">gallery</a> &nbsp;
-            </li>
-            <li class="navLi">
-              <a href="#">contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+        </li>
+        <li class="navLi">
+          <div class="navLinkDivs">
+            <a href="#">gallery</a> &nbsp;
+          </div>
+        </li>
+        <li class="navLi">
+          <div class="navLinkDivs">
+            <a href="#">contact</a>
+          </div>
+        </li>
+      </ul>
+    </div>
 
 
 
@@ -45,4 +57,7 @@
 
 
   </body>
+  <script type="text/javascript" src="./scripts/app.js">
+
+  </script>
 </html>

@@ -2,21 +2,15 @@ $cute-green: #c6e096;
 $cute-red: #e17e66;
 $cute-white: #fcfbfb;
 
+body{
+  background: $cute-white;
+}
 
-#bg {
-  z-index: -1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  // background: url(http://alexekim.github.io/images/plane.jpg) no-repeat center center fixed;
-  background-image: url("../assets/dahee.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  min-width: 100%;
-  min-height: 100%;
+.green{
+  color: $cute-green;
+}
+.red{
+  color: $cute-red;
 }
 
 .header{
@@ -24,30 +18,57 @@ $cute-white: #fcfbfb;
 }
 #name{
   margin: 20px;
+  text-align: center;
+}
+.nameSpan{
+  padding: 10px;
+  height: 20px;
 }
 #headerSpan{
   font-size: 24px;
-  font-family: "Cinzel", sans-serif;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 100;
 }
 
-.nav{
-  font-family: "Cinzel", sans-serif;
-  float: right;
-  display: inline-block;
+.navDiv{
+  text-align: center;
   padding-inline-start: 0 !important;
+
+}
+.nav{
+  font-family: 'Yantramanav', sans-serif;
+
 }
 
 .navLi{
   list-style: none;
   display: inline;
 }
+.navLinkDivs{
+  display: inline;
+  border-bottom: 1px solid $cute-green;
+  width: 50px;
+  margin: 20px;
+}
+.navLinkDivs:hover{
+  border-bottom: 1px solid $cute-red;
+}
+
 .navLi a {
   text-decoration: none;
+  // text-decoration: underline;
+  // text-decoration-color: $cute-green;
   color: black;
+  font-weight: 100;
+}
+.navLi a:hover {
+  // text-decoration: underline;
+  // text-decoration-color: $cute-red;
 }
 
 
 
 p{
-  font-family: "Cinzel", sans-serif;
+  font-family: 'Yantramanav', sans-serif;
+
 }
